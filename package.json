@@ -1,0 +1,25 @@
+{
+  "name": "clover",
+  "version": "0.1.0",
+  "description": "Clover - expense tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sinisa Mikulic",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
