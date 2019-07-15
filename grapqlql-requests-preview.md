@@ -10,3 +10,15 @@
     date
   }
 }
+
+{
+  expenses {
+    id
+    value
+    mainCategory
+  }
+  categories {
+    name
+    mainCategory
+  }
+}
